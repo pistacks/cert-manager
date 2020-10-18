@@ -18,7 +18,7 @@ $ kubectl apply -f https://raw.githubusercontent.com/pistacks/cert-manager/main/
 Verify that it's running:
 
 ```
-$ $ kubectl get pods --namespace cert-manager
+$ kubectl get pods --namespace cert-manager
 NAME                                       READY   STATUS    RESTARTS   AGE
 cert-manager-cainjector-75f88c9f56-zl2dw   1/1     Running   0          25s
 cert-manager-77d8f4d85f-pnvxs              1/1     Running   0          25s
